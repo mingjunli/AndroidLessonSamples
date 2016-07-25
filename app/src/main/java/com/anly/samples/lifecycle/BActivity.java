@@ -1,15 +1,36 @@
 package com.anly.samples.lifecycle;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.anly.samples.R;
 import com.anly.samples.base.TraceActivity;
 
-public class BActivity extends TraceActivity {
+public class BActivity extends TraceActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_b);
+
+        findViewById(R.id.btn_a).setOnClickListener(this);
+        findViewById(R.id.btn_b).setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.btn_a:
+                startActivity(new Intent(BActivity.this, AActivity.class));
+                break;
+
+            case R.id.btn_b:
+                startActivity(new Intent(BActivity.this, BActivity.class));
+                break;
+
+            default:
+                break;
+        }
     }
 }

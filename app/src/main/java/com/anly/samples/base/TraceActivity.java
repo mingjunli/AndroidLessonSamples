@@ -133,6 +133,6 @@ public class TraceActivity extends AppCompatActivity {
         String[] strings = this.toString().split("\\.");
         String className = strings[strings.length - 1];
 
-        Log.d("ActivityLifecycle", "Called " + className + "---" + methodName);
+        Log.d("ActivityLifecycle", "Called " + className + "---" + methodName + " in task:" + this.getTaskId());
     }
 }
