@@ -14,10 +14,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".lifecycle.AActivity"
-            android:launchMode="singleInstance">
+        <activity
+            android:name=".lifecycle.AActivity"
+            android:label="A-Activity">
         </activity>
-        <activity android:name=".lifecycle.BActivity">
+
+        <activity
+            android:name=".lifecycle.BActivity"
+            android:label="B-Activity">
         </activity>
     </application>
 

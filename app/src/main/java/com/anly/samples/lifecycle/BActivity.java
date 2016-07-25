@@ -13,6 +13,7 @@ public class BActivity extends TraceActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_b);
+        getSupportActionBar().setTitle("B-Activity");
 
         findViewById(R.id.btn_a).setOnClickListener(this);
         findViewById(R.id.btn_b).setOnClickListener(this);
