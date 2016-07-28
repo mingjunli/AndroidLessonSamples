@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Activity_B"/>
+        android:text="Activity_C"/>
 
     <Button
         android:id="@+id/btn_a"
@@ -22,6 +22,13 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Start Activity A"/>
+
+    <Button
+        android:id="@+id/btn_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Start Activity B"/>
 
     <Button
         android:id="@+id/btn_c"

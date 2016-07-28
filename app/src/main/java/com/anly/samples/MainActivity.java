@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.anly.samples.lifecycle.AActivity;
+import com.anly.samples.activity.AActivity;
 
 import java.util.ArrayList;
 

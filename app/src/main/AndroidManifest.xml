@@ -15,13 +15,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".lifecycle.AActivity"
-            android:label="A-Activity">
+            android:name=".activity.AActivity"
+            android:label="A-Activity"
+            android:taskAffinity="com.anly.aactivity"
+            >
         </activity>
 
         <activity
-            android:name=".lifecycle.BActivity"
-            android:label="B-Activity">
+            android:name=".activity.BActivity"
+            android:label="B-Activity"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.CActivity"
+            android:label="C-Activity"
+            >
         </activity>
     </application>
 
