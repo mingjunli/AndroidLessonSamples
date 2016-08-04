@@ -11,26 +11,24 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".activity.AActivity"
             android:label="A-Activity"
-            android:taskAffinity="com.anly.aactivity"
-            >
+            android:taskAffinity="com.anly.aactivity">
         </activity>
-
         <activity
             android:name=".activity.BActivity"
-            android:label="B-Activity"
-            >
+            android:label="B-Activity">
         </activity>
-
         <activity
             android:name=".activity.CActivity"
-            android:label="C-Activity"
-            >
+            android:label="C-Activity">
+        </activity>
+        <activity android:name=".textview.TextViewActivity">
         </activity>
     </application>
 
