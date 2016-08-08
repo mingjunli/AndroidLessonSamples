@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.anly.samples.activity.AActivity;
+import com.anly.samples.textview.TextInputLayoutActivity;
 import com.anly.samples.textview.TextViewActivity;
 
 import java.util.ArrayList;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     static {
         mDataSet.add(new SampleClass("ActivityLifecycleSample", AActivity.class));
         mDataSet.add(new SampleClass("TextViewSample", TextViewActivity.class));
+        mDataSet.add(new SampleClass("TextInputLayoutSample", TextInputLayoutActivity.class));
     }
 
     @Override
