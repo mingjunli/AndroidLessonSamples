@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.anly.samples.activity.AActivity;
+import com.anly.samples.rx.DynamicCheckActivity;
 import com.anly.samples.textview.TextInputLayoutActivity;
 import com.anly.samples.textview.TextViewActivity;
 
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mDataSet.add(new SampleClass("ActivityLifecycleSample", AActivity.class));
         mDataSet.add(new SampleClass("TextViewSample", TextViewActivity.class));
         mDataSet.add(new SampleClass("TextInputLayoutSample", TextInputLayoutActivity.class));
+        mDataSet.add(new SampleClass("DynamicCheckSample", DynamicCheckActivity.class));
     }
 
     @Override

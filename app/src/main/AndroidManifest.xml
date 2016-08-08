@@ -2,6 +2,8 @@
 <manifest package="com.anly.samples"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -30,7 +32,8 @@
         </activity>
         <activity android:name=".textview.TextViewActivity">
         </activity>
-        <activity android:name=".textview.TextInputLayoutActivity">
+        <activity android:name=".textview.TextInputLayoutActivity"/>
+        <activity android:name=".rx.DynamicCheckActivity">
         </activity>
     </application>
 
