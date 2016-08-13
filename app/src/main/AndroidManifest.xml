@@ -35,6 +35,11 @@
         <activity android:name=".textview.TextInputLayoutActivity"/>
         <activity android:name=".rx.DynamicCheckActivity">
         </activity>
+        <activity
+            android:name=".problem.BackgroundPaddingActivity"
+            android:label="@string/title_activity_background_padding"
+            android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>
