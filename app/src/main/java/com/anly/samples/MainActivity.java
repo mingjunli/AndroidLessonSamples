@@ -11,6 +11,7 @@ import android.widget.ListView;
 import com.anly.samples.activity.AActivity;
 import com.anly.samples.problem.BackgroundPaddingActivity;
 import com.anly.samples.rx.DynamicCheckActivity;
+import com.anly.samples.pref.MemoryLeakActivity;
 import com.anly.samples.textview.TextInputLayoutActivity;
 import com.anly.samples.textview.TextViewActivity;
 
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mDataSet.add(new SampleClass("TextInputLayoutSample", TextInputLayoutActivity.class));
         mDataSet.add(new SampleClass("DynamicCheckSample", DynamicCheckActivity.class));
         mDataSet.add(new SampleClass("BackgroundPadding", BackgroundPaddingActivity.class));
+        mDataSet.add(new SampleClass("MemoryLeakSample", MemoryLeakActivity.class));
     }
 
     @Override

@@ -40,6 +40,8 @@
             android:label="@string/title_activity_background_padding"
             android:screenOrientation="portrait">
         </activity>
+        <activity android:name=".pref.MemoryLeakActivity">
+        </activity>
     </application>
 
 </manifest>
