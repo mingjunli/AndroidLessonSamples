@@ -29,4 +29,16 @@ public class ListenerManager {
     public void removeListener(SampleListener listener) {
         listeners.remove(listener);
     }
+    public void removeListener(){
+        if (listeners != null){
+            listeners.clear();
+        }
+    }
+    public int getListenerSize(){
+        if (listeners != null){
+            return listeners.size();
+        }
+        return -1;
+    }
+
 }
