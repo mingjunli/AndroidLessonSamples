@@ -9,6 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.anly.samples.activity.AActivity;
+import com.anly.samples.aidl.AidlSampleActivity;
+import com.anly.samples.pref.leak.CursorLeakActivity;
+import com.anly.samples.pref.leak.HandlerLeakActivity;
 import com.anly.samples.problem.BackgroundPaddingActivity;
 import com.anly.samples.rx.DynamicCheckActivity;
 import com.anly.samples.pref.MemoryLeakActivity;
@@ -30,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
         mDataSet.add(new SampleClass("DynamicCheckSample", DynamicCheckActivity.class));
         mDataSet.add(new SampleClass("BackgroundPadding", BackgroundPaddingActivity.class));
         mDataSet.add(new SampleClass("MemoryLeakSample", MemoryLeakActivity.class));
+        mDataSet.add(new SampleClass("ListenerLeakSample", MemoryLeakActivity.class));
+        mDataSet.add(new SampleClass("HandlerLeakSample", HandlerLeakActivity.class));
+        mDataSet.add(new SampleClass("CursorLeakSample", CursorLeakActivity.class));
+        mDataSet.add(new SampleClass("AIDL Sample", AidlSampleActivity.class));
     }
 
     @Override
