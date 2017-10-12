@@ -3,6 +3,7 @@
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
@@ -32,11 +33,71 @@
             android:name=".activity.CActivity"
             android:label="C-Activity">
         </activity>
+
+        <activity android:name=".activity.ForResultActivity"
+            android:label="StartActivityForResult"/>
+
+        <activity android:name=".activity.SendResultActivity"
+            android:label="Pick Result"/>
+
+
+        <activity android:name=".activity.FragmentStackActivity"
+            android:label="Fragment Stack"/>
+
+        <activity android:name=".activity.FragmentHideShowActivity"
+                  android:label="Fragment Hide/Show"/>
+
+        <activity android:name=".activity.ListFragmentActivity"
+                  android:label="List Fragment"/>
+
+        <activity android:name=".activity.FragmentDialogActivity"
+                  android:label="Dialog Fragment"/>
+
+        <activity android:name=".layout.LinearLayout"
+                  android:label="LinearLayout"/>
+
+        <activity android:name=".layout.RelativeLayout"
+                  android:label="RelativeLayout"/>
+
+        <activity android:name=".layout.FrameLayout"
+                  android:label="FrameLayout"/>
+
+        <activity android:name=".layout.ConstraintLayout"
+                  android:label="ConstraintLayout"/>
+
+        <activity android:name=".layout.ConstraintSetExampleActivity"
+                  android:label="ConstraintLayout"/>
+
+        <activity android:name=".views.container.RecyclerViewDemo"
+                  android:label="RecyclerView"/>
+
+        <activity android:name=".views.container.ScrollViewActivity"
+                  android:label="ScrollView"/>
+        <activity android:name=".views.container.ListViewActivity"
+                  android:label="ListView"/>
+        <activity android:name=".views.container.GridActivity"
+                  android:label="GridView"/>
+        <activity android:name=".views.container.SlidingTabActivity"
+                  android:label="SlidingTab"/>
+        <activity android:name=".views.container.WebViewActivity"
+                  android:label="WebView"/>
+
+
+
+        <activity android:name=".views.BasicWidgetsActivity"
+                  android:label="Basic Widgets"/>  />
+
+
         <activity android:name=".textview.TextViewActivity">
         </activity>
         <activity android:name=".textview.TextInputLayoutActivity"/>
         <activity android:name=".rx.DynamicCheckActivity">
         </activity>
+
+        <activity android:name=".views.custom.TaobaoDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
         <activity
             android:name=".problem.BackgroundPaddingActivity"
             android:label="@string/title_activity_background_padding"

@@ -9,10 +9,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 
+import com.anly.samples.common.activities.SampleActivityBase;
+
 /**
  * Created by mingjun on 16/7/22.
  */
-public class TraceActivity extends AppCompatActivity {
+public class TraceActivity extends SampleActivityBase {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
